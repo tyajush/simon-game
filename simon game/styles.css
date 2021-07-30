@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #003638;
+}
+
+#level-title {
+  font-family: 'Games', sans-serif;
+  font-size: 4rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.final-score{
+  font-family: 'Games', sans-serif;
+  font-size: 4rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #D54C4C;
+}
+
+.green {
+  background-color: #5D8233;
+}
+
+.blue {
+  background-color: #39A2DB;
+}
+
+.yellow {
+  background-color: #FFC947;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
